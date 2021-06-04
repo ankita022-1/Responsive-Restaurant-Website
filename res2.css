@@ -1,0 +1,116 @@
+
+/* ---------------------------------------------------header---------------------------------------------- */
+*{
+    margin:0px;
+    margin:0px;
+}
+header{
+    height:100%;
+    width:100%; 
+    justify-content: center; 
+}
+header div{
+    margin-left: -0.3rem;
+    width:80%;  
+}
+header h6{
+    font-size: 1.4rem;
+}
+/* ---------------------------------------------------navigation---------------------------------------------- */
+nav, nav #nav{
+    height:100%;
+    width:100%;      
+}
+nav #nav li{
+    margin:1px auto;
+    padding:1px 1px;
+
+}
+nav #nav li a{
+     font-size: 1.01rem; 
+}
+/* ---------------------------------------------------section------------------------------------------------ */
+/* -----------------section 1(home) -----------------*/
+#bg, #bg::before{
+    height:100%;
+    width:100%;      
+}
+#home{
+    height:100%;
+    width:100%; 
+    margin: 0px auto;  
+    padding:2px;
+}
+#address_ {
+    font-size: 1.05rem;
+}
+/* ----------------section 2(our menu) ---------------*/
+#sec2::before, #sec2{
+    height:100%;
+    width:100%;
+
+}
+.ourMenu{
+    width:100%;
+    height:95%;
+    flex-wrap: wrap;
+}
+.menu_class{
+    height:100%;
+    margin: 0px auto;
+    padding: 0px 0px;
+    border: 2px solid black;
+}
+.image{
+    
+    border: 2px solid black;
+    display: block;
+    height: 9.2rem;
+    width: 14.2rem;
+    margin: 2px auto;
+    padding: 2px 2px;
+}
+
+/* -----------------section 3(about) -----------------*/
+#about::before, #about{
+    height:100%;
+    width:100%;
+}
+#about::before{
+    opacity: 0.85;
+}
+#sec3{
+    height:95%;
+    width:100%;
+    flex-wrap:wrap;
+}
+.sec3a{
+    height:100%;
+    width:100%;
+}
+/* --------------section 4(online ordering ) ----------*/
+#sec4::before ,#sec4{
+    height:132%;
+    width:100%;    
+}
+#sec4::before{
+    opacity: 0.5;
+}
+
+#sec4_, form{
+    height:95%;
+    width:100%;
+}
+form input,form textarea{
+    height:95%;
+    width:100%;    
+}
+/* .sec4a{
+    width:100%;
+    height:100%;
+
+} */
+/* ---------------------------------------------------footer---------------------------------------------- */
+/* footer{ */
+    /* background-color: white; */
+/* } */
