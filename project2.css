@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
 html{
+    font-family: 'Great Vibes', cursive;
     scroll-behavior:smooth;
 }
 /* ---------------------------------------------------header---------------------------------------------- */
@@ -26,7 +31,7 @@ header img{
     margin: -4px 0px;
 }
 header h6{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     margin: 14px -28px;
     padding: 7px 11px;
     font-size: 26px;
@@ -42,15 +47,12 @@ nav #nav{
     width: 35%;
     height: 44px;    
     margin: 0px auto;
-    display: flex;
-    /* position: fixed; */
-   
+    display: flex; 
 }
 nav #nav li{
     list-style: none;
     padding:0px 16px;
     margin:4px auto;
-    border:2px solid white;
     background-color: white;    
     border-radius: 4px;
     text-align: center;
@@ -61,14 +63,11 @@ nav #nav li a{
     text-decoration: none;
     text-align :center;
     color:black;
-    /* margin:3px 2px;    */
-    font-family: 'Bodoni Moda', serif;
     font-size: 20px;
-    font-weight: bold;   
+    font-weight: bold;  
     
 }
 nav #nav li a:hover{
-    /* background-color: black;    */
     color:rgb(223, 29, 29);
 }
 nav #nav li a:active{
@@ -97,14 +96,12 @@ nav #nav li a:active{
     width: 585px;
     height: 300px;
     margin: 0px auto;
-    font-family: 'Bodoni Moda', serif;
     text-align:center;
     align-items:center;
     color:rgb(250, 250, 250);
 }
 #address{
     background-color: rgb(0,0,0,0.7);
-    border: 2px solid white;
     height: 228px;
     margin-top: 126px;
     padding: 2px 2px;
@@ -135,7 +132,6 @@ nav #nav li a:active{
 #home button a{
     background-color:rgba(49, 47, 47, 0.8);
     text-decoration: none;
-    border:2px solid black;
     border-radius: 4px;
     font-size:27px;
     color:rgb(145, 255, 0);
@@ -153,7 +149,6 @@ nav #nav li a:active{
     --width: 143rem;
 }
 #sec2::before{
-    border:2px solid black;
     content:"";
     position:absolute;
     background-image: url("../images/bg_img3.jpg");
@@ -163,33 +158,26 @@ nav #nav li a:active{
     height:var(--height);
     width:var(--width);
     z-index:-1;
-    /* opacity:0.75;     */
-    border:2px solid black;
 }
 #sec2{
     position:relative;
     height:var(--height);
     width:var(--width);
-    border:2px solid black;
 }
 /* tittle */
 #sec2 h4{
     background-color:rgba(49, 47, 47, 0.8);
-    border:2px solid black;
     height:47px;
-    font-family: 'Pacifico', cursive;
     display: flex;
     font-size: 23px;    
     justify-content: center;
     color:white;  
 }
 #sec2 h2 p{
-    border:2px solid black;
     margin-bottom: 2px;
 }
 /* ----menu----- */
 .ourMenu{
-    border: 2px solid black;
     display: flex;
     height: 27.3rem;
     width: 80.3rem;
@@ -197,7 +185,6 @@ nav #nav li a:active{
     padding: 19px 18px;
 }
 .image{
-    border:2px solid black;
     display:block;
     height: 20.2rem;
     width: 20.2rem;
@@ -206,7 +193,6 @@ nav #nav li a:active{
 
 }
 .menu_class{
-    border:2px solid black;
     margin:2px auto;
     padding:3px 4px;
 }
@@ -214,8 +200,7 @@ nav #nav li a:active{
     background-color: white;
     font-weight: bold;
     text-align:center;
-    padding:0px 2px; 
-    font-family: 'Pacifico', cursive;   
+    padding:0px 2px;  
 }
 .money{
     margin:-9px 2px;
@@ -237,26 +222,20 @@ nav #nav li a:active{
     height:var(--h);
     width:var(--w);
     z-index:-1;
-    /* opacity:0.75;     */
-    border:2px solid black;
 }
 #about{
     position:relative;
     height:var(--h);
     width:var(--w);
-    border:2px solid black;
 }
 #about h4{
     background-color:rgba(49, 47, 47, 0.8);
-    border:2px solid black;
     height:44px;
-    font-family: 'Pacifico', cursive;
     text-align:center;
     color:white;  
     font-size: 23px;
 }
 #sec3{
-    border:2px solid white;
     display:flex;
     width:75%;
     margin:2px auto;
@@ -269,7 +248,6 @@ nav #nav li a:active{
 .sec3a{
     width:20%;
     height:62%;
-    border:2px solid white;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -278,7 +256,6 @@ nav #nav li a:active{
     color:yellow;
 }
 .sec3b{
-    border:2px solid white;
     display:block;
     width: 256px;
     height: 51px;
@@ -286,7 +263,6 @@ nav #nav li a:active{
     color:white;
 }
 .sec3c{
-    border:2px solid white;
     display:block;
     width: 208px;
     height: 124px;
@@ -301,8 +277,7 @@ nav #nav li a:active{
 }
 #s4_tittle {
     color: black;
-    font-family: 'Pacifico', cursive;
-    font-weight: bold;
+     font-weight: bold;
     font-size: 37px;
     text-align: center;
     margin: 2px auto;
@@ -314,7 +289,6 @@ nav #nav li a:active{
     display: block;
     height: 423px;
     width: 30%;
-    border: 2px solid black;
     margin: 2px auto;
     padding: 2px 2px;
 }
@@ -359,7 +333,6 @@ form textarea{
 #submit {
     background-color:rgba(49, 47, 47, 0.8);
     text-decoration: none;
-    border:2px solid black;
     border-radius: 17px;
     font-size: 31px;
     color: rgb(145, 255, 0);
